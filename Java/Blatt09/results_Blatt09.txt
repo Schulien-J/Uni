@@ -1,0 +1,87 @@
+datsose24,  01.07.2024, 00:32:53, 3467ff2fbd89615df8ddef19d4b04ac049abf4b6
+Korrektur Blatt 09
+
+Aufgabe 3.1
+	Test output of manhattan() on complex boards: 5/5
+	Test output of manhattan() on medium complex boards: 5/5
+	Test output of manhattan() on simple boards: 5/5
+Total points for Aufgabe 3.1: 15/15
+
+Aufgabe 3.2
+	Test output of compareTo() on fresh PartialSolutions (without performing moves): 4/4
+	Test output of compareTo() on PartialSolutions after performing moves: 4/4
+	Test the copy constructor (requires doMove() and isSolution() to work): 4/4
+	Test doMove() (requires isSolution() to work): 4/4
+	Test output of isSolution(): 4/4
+	Test output of moveSequence(): 1/1
+	Test output of validMoves(): 4/4
+Total points for Aufgabe 3.2: 25/25
+
+Aufgabe 3.3
+	Test solveByAStar() with moderate 3x3 boards: 0/10
+	  java.lang.AssertionError: Method solveByAStar() does not return the expected result.
+We called solveByAStar() for the following board:
+ 2  4  8 
+ 6  0  7 
+ 5  1  3 
+The required number of moves is26, but your method
+returned a move sequence containing0 moves.
+	Test solveByAStar() with simple 3x3 boards: 0/10
+	  java.lang.AssertionError: Method solveByAStar() does not return the expected result.
+We called solveByAStar() for the following board:
+ 8  5  2 
+ 1  0  3 
+ 7  4  6 
+The required number of moves is18, but your method
+returned a move sequence containing0 moves.
+	Test solveByAStar() with moderate 4x4 boards: 0/10
+	  java.lang.AssertionError: Method solveByAStar() does not return the expected result.
+We called solveByAStar() for the following board:
+ 6  2  1  3 
+10  9  7  4 
+14 13  8  0 
+ 5 11 12 15 
+The required number of moves is31, but your method
+returned a move sequence containing0 moves.
+	Test solveByAStar() with simple 4x4 boards: 0/10
+	  java.lang.AssertionError: Method solveByAStar() does not return the expected result.
+We called solveByAStar() for the following board:
+ 1  6  2  8 
+ 5  0  4  3 
+10 11  7 14 
+ 9 13 15 12 
+The required number of moves is18, but your method
+returned a move sequence containing0 moves.
+	Test solveByAStar() with moderate 5x5 boards: 0/10
+	  java.lang.AssertionError: Method solveByAStar() does not return the expected result.
+We called solveByAStar() for the following board:
+ 1  2  8 10  9 
+ 6  7 14 20  3 
+11 12 18 13  5 
+21  0 17 15  4 
+22 16 23 19 24 
+The required number of moves is38, but your method
+returned a move sequence containing0 moves.
+	Test solveByAStar() with hard 6x6 boards: 0/5
+	  java.lang.AssertionError: Method solveByAStar() does not return the expected result.
+We called solveByAStar() for the following board:
+ 1  2  3  4 11  5 
+ 7  8  9 10  6 12 
+14 19 21 15 22 16 
+13 26 20 23 35 17 
+25 32 27 34 29  0 
+31 33 28 30 24 18 
+The required number of moves is43, but your method
+returned a move sequence containing0 moves.
+	Test solveByAStar() with simple non-quadratic boards: 0/5
+	  java.lang.AssertionError: Method solveByAStar() does not return the expected result.
+We called solveByAStar() for the following board:
+ 1  2 
+ 4  5 
+ 0  7 
+ 6  3 
+The required number of moves is10, but your method
+returned a move sequence containing0 moves.
+Total points for Aufgabe 3.3: 0/60
+
+Total points: 40/100

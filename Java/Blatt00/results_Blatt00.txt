@@ -1,0 +1,8 @@
+datsose24,  23.04.2024, 00:29:57, 7ce74a8b484e789bc281dabcabaed7b60a4868b3
+Korrektur Blatt 0
+
+Aufgabe 3.6
+	Test, ob Abgaben.txt vorhanden ist: 10/10
+Total points for Aufgabe 3.6: 10/10
+
+Total points: 10/10

@@ -1,0 +1,36 @@
+datsose24,  11.06.2024, 00:42:46, 7df9192f61d43237ebce08cc8378fffd164cdf41
+Korrektur Blatt 6
+
+Aufgabe 3.1
+	Wird edgeTo richtig zugwiesen?: 4/4
+	Wird postorder richtig zugwiesen?: 5/5
+	Wird preorder richtig zugwiesen?: 5/5
+	Wird distTo richtig zugwiesen?: 0/4
+	  java.lang.AssertionError: The recursive solution does not work. did not expect to find [true] but found [false]
+Total points for Aufgabe 3.1: 14/18
+
+Aufgabe 3.2
+	Gibt die Methode pathTo, den richtigen Weg zurück?: 12/12
+Total points for Aufgabe 3.2: 12/12
+
+Aufgabe 3.3
+	Checkt die Implementierung von mazegrid: 15/15
+Total points for Aufgabe 3.3: 15/15
+
+Aufgabe 3.4
+	Checkt die Implementierung von randomNonrecursivedfs: 10/10
+	Checkt die Implementierung von randomdfs: 5/5
+Total points for Aufgabe 3.4: 15/15
+
+Aufgabe 3.5
+	Checkt die Implementierung von addEdge: 4/4
+	Checkt die Implementierung von hasEdge: 6/6
+Total points for Aufgabe 3.5: 10/10
+
+Aufgabe 3.6
+	Checkt die Implementierung von findWay: 10/10
+	Checkt die Implementierung von buildMaze: 0/20
+	  java.lang.AssertionError: Das Labyrinth hat einen Cycle. did not expect to find [false] but found [true]
+Total points for Aufgabe 3.6: 10/30
+
+Total points: 76/100

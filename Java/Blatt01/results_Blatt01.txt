@@ -1,0 +1,77 @@
+datsose24,  06.05.2024, 16:20:13, fbcf03e9195346a38c851a4902fd1c12176367dd
+Korrektur Blatt 1
+
+Aufgabe 3
+	Test equals(): 5/5
+	Test getter methods: 5/5
+	Test constructor of pair with `Double[]` objects as elements: 5/5
+	Test constructor of pair with Integer elements: 5/5
+	Test setter methods: 5/5
+	Test `swap()`: 5/5
+Total points for Aufgabe 3: 30/30
+
+Aufgabe 4.1
+	Test `area()` method of ConvexPolygon: 0/5
+	  java.lang.Error: Unresolved compilation problem: 
+	The constructor ConvexPolygon(Vector2D[]) is undefined
+
+	Test constructor of ConvexPolygon: 0/5
+	  java.lang.Error: Unresolved compilation problem: 
+	The constructor ConvexPolygon(Vector2D[]) is undefined
+
+	Test `perimeter()` method of ConvexPolygon: 0/5
+	  java.lang.Error: Unresolved compilation problem: 
+	The constructor ConvexPolygon(Vector2D[]) is undefined
+
+	Test static method `somePolygons()` of ConvexPolygon: 0/5
+	  java.lang.Error: Unresolved compilation problems: 
+	Tetragon cannot be resolved to a type
+	Tetragon cannot be resolved to a type
+	The method somePolygons() is undefined for the type ConvexPolygon
+
+	Test static method `totalArea()` of ConvexPolygon: 0/5
+	  java.lang.Error: Unresolved compilation problems: 
+	The constructor ConvexPolygon(Vector2D[]) is undefined
+	The method totalArea(ConvexPolygon[]) is undefined for the type ConvexPolygon
+
+Total points for Aufgabe 4.1: 0/25
+
+Aufgabe 4.2
+	Test `area()` method of Triangle: 10/10
+	Test constructor of Triangle: 5/5
+	Test copy constructor of Triangle: 5/5
+Total points for Aufgabe 4.2: 20/20
+
+Aufgabe 4.3
+	Test area calculation of Tetragon: 0/1
+	  java.lang.Error: Unresolved compilation problems: 
+	Tetragon cannot be resolved to a type
+	Tetragon cannot be resolved to a type
+
+	Test constructor of Tetragon: 0/2
+	  java.lang.Error: Unresolved compilation problems: 
+	Tetragon cannot be resolved to a type
+	Tetragon cannot be resolved to a type
+
+	Test perimeter calculation of Tetragon: 0/1
+	  java.lang.Error: Unresolved compilation problems: 
+	Tetragon cannot be resolved to a type
+	Tetragon cannot be resolved to a type
+
+	Test toString method of Tetragon: 0/1
+	  java.lang.Error: Unresolved compilation problems: 
+	Tetragon cannot be resolved to a type
+	Tetragon cannot be resolved to a type
+
+Total points for Aufgabe 4.3: 0/5
+
+Aufgabe 4.4
+	Test basic constructor of RegularPolygon: 0/5
+	   java.lang.NullPointerException in RegularPolygonKorrektur.testRegularPolygonConstructor(RegularPolygonKorrektur.java:17)
+	Test copy constructor of RegularPolygon: 0/5
+	   java.lang.NullPointerException in RegularPolygonKorrektur.testRegularPolygonCopyConstructor(RegularPolygonKorrektur.java:42)
+	Test `resize()` method of RegularPolygon: 0/10
+	   java.lang.NullPointerException in RegularPolygonKorrektur.testResize(RegularPolygonKorrektur.java:70)
+Total points for Aufgabe 4.4: 0/20
+
+Total points: 50/100

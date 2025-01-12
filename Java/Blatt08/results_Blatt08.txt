@@ -1,0 +1,39 @@
+datsose24,  24.06.2024, 00:29:57, 776464dbe1b833d51f9f8d4aeebb4499f53a8846
+Korrektur Blatt 8
+
+Aufgabe 3.2
+	Does the method contrast() of MatrixImage work correctly?: 5/5
+	Does the method removeVPath() of MatrixImage work correctly?: 15/15
+Total points for Aufgabe 3.2: 20/20
+
+Aufgabe 3.3
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for large DAGs?: 4/4
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for large DAGs?: 6/6
+	Does the method pathTo() of ShortestPathsTopological return a valid path for large DAGs?: 4/4
+	Does the method pathTo() of ShortestPathsTopological return a valid path for large DAGs?: 6/6
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for medium-sized DAGs?: 4/4
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for medium-sized DAGs?: 6/6
+	Does the method pathTo() of ShortestPathsTopological return a valid path for medium-sized DAGs?: 4/4
+	Does the method pathTo() of ShortestPathsTopological return a valid path for medium-sized DAGs?: 6/6
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for small DAGs?: 2/2
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for small DAGs?: 3/3
+	Does the method pathTo() of ShortestPathsTopological return a valid path for small DAGs?: 2/2
+	Does the method pathTo() of ShortestPathsTopological return a valid path for small DAGs?: 3/3
+Total points for Aufgabe 3.3: 50/50
+
+Aufgabe 3.4
+	Does the method leastContrastImageVPath() of ContentAwareImageResizing return an optimal path?: 0/20
+	  java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+	Does the method leastContrastImageVPath() of ContentAwareImageResizing return a valid path?: 0/10
+	  java.lang.AssertionError: Method leastContrastImageVPath returned a path of wrong length.
+We tested leastContrastImageVpath for the following matrix:
+4 4 4 1 1 4 4 4 
+8 8 1 8 8 1 8 8 
+4 1 4 4 4 4 1 4 
+8 8 1 8 8 1 8 8 
+4 4 4 1 1 4 4 4 
+and expected a path of length 5,
+but your method returned path [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] with is of length 40.
+Total points for Aufgabe 3.4: 0/30
+
+Total points: 70/100
